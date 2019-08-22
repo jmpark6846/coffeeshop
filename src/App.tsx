@@ -6,7 +6,11 @@ import { ShopListPage } from './pages/ShopListPage'
 const App: React.FC = () => {
   return (
     <div className="App">
-      <ShopListPage />
+      <Header />
+      <Body>
+        <Sidebar />
+        <ShopListPage />
+      </Body>
     </div>
   )
 }
